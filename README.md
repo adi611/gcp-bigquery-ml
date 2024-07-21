@@ -47,7 +47,3 @@ Training matrix factorization models requires setting up a reservation (flex or 
 ## Contributing
 
 Feel free to fork this repository and submit pull requests with any improvements or extensions to the project.
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
