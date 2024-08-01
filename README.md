@@ -1,4 +1,4 @@
-# Google Analytics Recommendation Model with BigQuery ML
+# Recor ML
 
 This project demonstrates how to build a recommendation system using Google Analytics data and BigQuery ML. It implements a WALS (Weighted Alternating Least Squares) matrix factorization model for collaborative filtering to recommend newspaper articles to users based on their reading behavior.
 
