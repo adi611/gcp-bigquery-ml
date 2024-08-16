@@ -1,49 +1,49 @@
 # Recor ML
 
-This project demonstrates the creation of a content recommendation system using web analytics data and cloud-based machine learning. It implements a matrix factorization approach for collaborative filtering to suggest relevant articles to users based on their reading patterns.
+This project showcases the development of an article suggestion system using web analytics data and cloud-based machine learning. It employs a matrix factorization technique for collaborative filtering to propose relevant content to readers based on their browsing behavior.
 
-## Project Overview
+## Project Synopsis
 
-The project covers these key phases:
+The project encompasses these main stages:
 
-1. Analytics data preparation and processing
-2. Feature engineering to create an article engagement metric
-3. Training a recommendation model using cloud-based ML tools
-4. Generating predictions and applying recommendations
+1. Web analytics data processing and preparation
+2. Feature engineering to establish an article engagement metric
+3. Training a recommendation algorithm using cloud-based ML tools
+4. Applying the model to generate content suggestions
 
 ## Repository Contents
 
-- `data_transform.sql`: SQL script for preparing and transforming raw analytics data
-- `model_build.sql`: SQL script for training the recommendation model
-- `recommendation_gen.sql`: SQL script for producing recommendations using the trained model
-- `recor_ml_workflow.ipynb`: Jupyter notebook containing the complete process with explanations
+- `create_table.sql`: SQL code for preparing and transforming raw analytics data
+- `train.sql`: SQL code for building the recommendation algorithm
+- `predict.sql`: SQL code for producing recommendations with the trained model
+- `bqml_ga360.ipynb`: Jupyter notebook detailing the complete process with explanations
 
-## Key Features
+## Key Aspects
 
-- Leverages session duration as a proxy for article engagement
-- Applies data normalization and scaling techniques
-- Utilizes cloud-based matrix factorization capabilities
-- Demonstrates handling of large-scale data in a cloud environment
+- Uses session duration as an indicator of article interest
+- Implements data scaling and normalization methods
+- Leverages cloud-based matrix factorization capabilities
+- Demonstrates large-scale data handling in a cloud environment
 
-## Getting Started
+## Quick Start Guide
 
-1. Ensure access to a cloud-based dataset with web analytics information
-2. Execute the SQL scripts in this order:
-   - `data_transform.sql`
-   - `model_build.sql`
-   - `recommendation_gen.sql`
-3. Alternatively, follow the `recor_ml_workflow.ipynb` notebook for a step-by-step guide
+1. Confirm access to a cloud-based dataset containing Google Analytics information
+2. Execute the SQL scripts in this sequence:
+   - `create_table.sql`
+   - `train.sql`
+   - `predict.sql`
+3. For a detailed walkthrough, refer to the `bqml_ga360.ipynb` notebook
 
-## Prerequisites
+## Requirements
 
-- Cloud platform account with appropriate database access
-- Proficiency in SQL and cloud-based data processing
-- Basic understanding of recommendation systems and collaborative filtering
+- Google Cloud Platform account with BigQuery access
+- Proficiency in SQL and BigQuery
+- Foundational knowledge of recommendation systems and collaborative filtering
 
-## Note on Computational Resources
+## Pricing Consideration
 
-Training advanced matrix factorization models may require setting up specific computational resources. Standard on-demand pricing might not be available for this model type.
+Training advanced matrix factorization models requires setting up a reservation (flex or regular) in BigQuery. On-demand pricing is not available for this model type.
 
-## Contributing
+## Contributions
 
-We welcome forks of this repository and encourage pull requests for any improvements or extensions to the project.
+We welcome forks of this repository and encourage pull requests for any enhancements or expansions to the project.
